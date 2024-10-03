@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SiberiaBuy - Ваш надёжный сервис покупок</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<div class="container">
+<h1>SiberiaBuy</h1>
+<p>Ваш надёжный сервис покупок из Китая в Якутск</p>
+</div>
+</header>
+<section class="how-it-works">
+<div class="container">
+<h2>Как это работает</h2>
+<p>Мы покупаем товары из Китая и доставляем их в Якутск, Россия. Наша комиссия составляет 10% от стоимости товара, а также дополнительная оплата за доставку 600 рублей за килограмм.</p>
+</div>
+</section>
+<section class="order-form">
+<div class="container">
+<h2>Сделать заказ</h2>
+<form id="orderForm">
+<label for="name">Имя:</label>
+<input type="text" id="name" name="name" required>
+
+<label for="surname">Фамилия:</label>
+<input type="text" id="surname" name="surname" required>
+
+<label for="phone">Номер телефона:</label>
+<input type="tel" id="phone" name="phone" required>
+
+<label for="productLink">Ссылка на товар (Taobao/Poison):</label>
+<input type="url" id="productLink" name="productLink" required>
+
+<label for="size">Размер:</label>
+<input type="text" id="size" name="size">
+
+<label for="color">Цвет:</label>
+<input type="text" id="color" name="color">
+
+<button type="submit">Отправить заказ</button>
+</form>
+</div>
+</section>
+<footer>
+<div class="container">
+<p>Подписывайтесь на нас в Instagram: <a href="https://www.instagram.com/siberiabuy" target="_blank">@siberiabuy</a></p>
+<p>Связаться с нами по WhatsApp: +7(999)174-52-79</p>
+</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
